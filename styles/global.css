@@ -11,3 +11,10 @@ a{
     text-decoration: none;
     color: inherit;
 }
+
+#hero {
+ /* utiliza-se o display flex pois eu quero alinhar todos os meus elementos no centro. */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
