@@ -12,7 +12,8 @@ a{
     color: inherit;
 }
 
-#hero {
+#hero , #tree, .links,
+#tree .buttons .button a {
  /* utiliza-se o display flex pois eu quero alinhar todos os meus elementos no centro. */
     display: flex;
     justify-content: center;
