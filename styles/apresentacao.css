@@ -5,6 +5,7 @@
     justify-content: center;
     /* eixo x */
     align-items: center;
+    gap: .5rem;
 }
 
 .apresentacao div {
@@ -19,5 +20,17 @@
     /* o primeiro é a largura e o segundo a altura. */
     object-position: 0 40%;
     border-radius: 50%;
-
+    border: 1px solid var(--cor-secundaria);
+}
+.apresentacao h1{
+    font-family: 'Honk';
+    font-size: 1.75rem;
+}
+.apresentacao p {
+    background-color: var(--cor-secundaria);
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--cor-primaria);
+    
+    
 }

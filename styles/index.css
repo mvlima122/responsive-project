@@ -19,6 +19,7 @@ html, body {
 body {
     /* dar um maior volume de preto, adicionando duas cores primárias , duplica a porcentagem. */
     background: linear-gradient( 200deg, var(--cor-secundaria), var(--cor-primaria), var(--cor-primaria));
+    font-family: 'Rubik', sans-serif;
 }
 
 li{
