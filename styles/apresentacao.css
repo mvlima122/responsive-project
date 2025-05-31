@@ -1,0 +1,23 @@
+.apresentacao {
+    display: flex;
+    flex-direction: column;
+    /* eixo y /, devido ao uso do flex direction*/
+    justify-content: center;
+    /* eixo x */
+    align-items: center;
+}
+
+.apresentacao div {
+    width: 10rem;
+    height: 10rem;
+}
+
+.apresentacao div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* o primeiro é a largura e o segundo a altura. */
+    object-position: 0 40%;
+    border-radius: 50%;
+
+}
